@@ -1,0 +1,23 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+dependencies {
+    implementation 'org.openjfx:javafx-controls:21.0.12:win'
+    implementation 'org.openjfx:javafx-graphics:21.0.12:win'
+    implementation 'org.openjfx:javafx-base:21.0.12:win'
+}
+
+application {
+    mainClass = 'com.example.hellofx.Main'
+}
