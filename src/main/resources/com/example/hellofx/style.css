@@ -1,0 +1,82 @@
+/* Styling lives here, not in the Java code. Text colours keep strong contrast on white. */
+
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-base: #f4f6f9;
+    -fx-text-fill: #1b2a41;
+}
+
+.app-title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #14233c;
+}
+
+.app-subtitle {
+    -fx-text-fill: #3d4b61;
+}
+
+.section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #14233c;
+}
+
+.form-pane {
+    -fx-background-color: white;
+    -fx-border-color: #c5ccd8;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+/* Keep a clearly visible focus indicator for keyboard users */
+.text-field:focused,
+.combo-box-base:focused,
+.table-view:focused {
+    -fx-border-color: #0b5cad;
+    -fx-border-width: 2;
+}
+
+.button:focused {
+    -fx-border-color: #0b5cad;
+    -fx-border-width: 2;
+    -fx-border-radius: 3;
+}
+
+.primary-button {
+    -fx-background-color: #14233c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.primary-button:hover {
+    -fx-background-color: #24385a;
+}
+
+.danger-button {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #a11a2b;
+    -fx-text-fill: #a11a2b;
+    -fx-border-radius: 3;
+}
+
+.danger-button:hover {
+    -fx-background-color: #fbeaec;
+}
+
+.status {
+    -fx-font-weight: bold;
+}
+
+.status-error {
+    -fx-text-fill: #a11a2b;
+}
+
+.status-success {
+    -fx-text-fill: #17693a;
+}
+
+.count {
+    -fx-text-fill: #3d4b61;
+}
